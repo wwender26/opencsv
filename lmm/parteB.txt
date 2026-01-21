@@ -1,0 +1,69 @@
+Wender@DESKTOP-8V9JJ7T MINGW64 ~/Documents/Pós/IA/Atividad/opencsv (master)
+$ mvn -Dtest=CSVReaderLLMTest test
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------< com.opencsv:opencsv >-------------------------
+[INFO] Building opencsv 3.9-cygri
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- jacoco:0.7.7.201606060606:prepare-agent (default-prepare-agent) @ ope
+ncsv ---
+[INFO] argLine set to -javaagent:C:\\Users\\Wender\\.m2\\repository\\org\\jacoco
+\\org.jacoco.agent\\0.7.7.201606060606\\org.jacoco.agent-0.7.7.201606060606-runt
+ime.jar=destfile=C:\\Users\\Wender\\Documents\\Pós\\IA\\Atividad\\opencsv\\targe
+t\\jacoco.exec
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ opencsv ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Wender\Documents\Pós\IA\Ativ
+idad\opencsv\src\main\resources
+[INFO]
+[INFO] --- compiler:3.5.1:compile (default-compile) @ opencsv ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. b
+uild is platform dependent!
+[INFO] Compiling 53 source files to C:\Users\Wender\Documents\Pós\IA\Atividad\op
+encsv\target\classes
+[INFO]
+[INFO] --- bundle:3.0.1:manifest (bundle-manifest) @ opencsv ---
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ opencsv ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] Copying 23 resources from src\test\resources to target\test-classes
+[INFO]
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ opencsv ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. b
+uild is platform dependent!
+[INFO] Compiling 64 source files to C:\Users\Wender\Documents\Pós\IA\Atividad\op
+encsv\target\test-classes
+[INFO]
+[INFO] --- gplus:1.5:testCompile (default) @ opencsv ---
+[INFO] Using Groovy 2.4.1 to perform testCompile.
+[INFO] Compiled 6 files.
+[INFO]
+[INFO] --- surefire:2.19.1:test (default-test) @ opencsv ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.opencsv.CSVReaderLLMTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.252 sec - in c
+om.opencsv.CSVReaderLLMTest
+
+Results :
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.517 s
+[INFO] Finished at: 2026-01-17T21:55:48-03:00
+[INFO] ------------------------------------------------------------------------
+
+Wender@DESKTOP-8V9JJ7T MINGW64 ~/Documents/Pós/IA/Atividad/opencsv (master)
+$

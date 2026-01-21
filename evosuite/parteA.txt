@@ -1,0 +1,687 @@
+Wender@DESKTOP-8V9JJ7T MINGW64 ~/Documents/Pós/IA/Atividad/opencsv (master)
+$ java -jar evosuite-1.0.6.jar -class com.opencsv.CSVReader -projectCP target/classes
+* EvoSuite 1.0.6
+* Going to generate test cases for class: com.opencsv.CSVReader
+* Starting client
+* Connecting to master process on port 20890
+* Analyzing classpath:
+  - target/classes
+[MASTER] 20:57:34.135 [logback-1] WARN  CheapPurityAnalyzer - org.apache.commons
+.lang3.StringUtils was not found in the inheritance tree. Using DEFAULT value fo
+r cheap-purity analysis
+[MASTER] 20:57:34.139 [logback-1] WARN  InheritanceTree - Class not in inheritan
+ce graph: org.apache.commons.lang3.StringUtils
+* Finished analyzing classpath
+* Generating tests for class com.opencsv.CSVReader
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals:
+  - Line 92
+  - Branch 52
+  - Exception 0
+  - MutationFactory 170
+  - Output 38
+  - Method 26
+  - MethodNoException 26
+[Progress:>                             0%] [Cov:>
+    0%]  - CBranchFitnessFactory 52
+* Using seed 1768694250724
+* Starting evolution
+[Progress:>                             1%] [Cov:>
+[Progress:>                             1%] [Cov:====>
+[Progress:>                             1%] [Cov:=====>
+[Progress:>                             1%] [Cov:======>
+[Progress:>                             1%] [Cov:=======>
+[Progress:>                             1%] [Cov:=======>
+[Progress:>                             1%] [Cov:========>
+[Progress:>                             1%] [Cov:=========>
+[Progress:>                             1%] [Cov:==========>
+[Progress:=>                            5%] [Cov:=>
+[Progress:=>                            5%] [Cov:=>
+[Progress:=>                            5%] [Cov:=====>
+[Progress:=>                            5%] [Cov:======>
+[Progress:=>                            5%] [Cov:======>
+[Progress:=>                            5%] [Cov:=======>
+[Progress:=>                            5%] [Cov:=======>
+[Progress:=>                            5%] [Cov:========>
+[Progress:=>                            5%] [Cov:=========>
+[Progress:=>                            5%] [Cov:=========>
+[Progress:=>                            5%] [Cov:==========>
+[Progress:=>                            5%] [Cov:==========>
+[Progress:=>                            6%] [Cov:=====>
+[Progress:=>                            6%] [Cov:======>
+[Progress:=>                            6%] [Cov:=======>
+[Progress:=>                            6%] [Cov:=======>
+[Progress:=>                            6%] [Cov:========>
+[Progress:=>                            6%] [Cov:=========>
+[Progress:=>                            6%] [Cov:=========>
+[Progress:=>                            6%] [Cov:==========>
+[Progress:=>                            6%] [Cov:==========>
+[Progress:=>                            6%] [Cov:==========>
+[Progress:=>                            6%] [Cov:==========>
+[Progress:==>                           8%] [Cov:===================>
+[Progress:==>                           8%] [Cov:====================>
+[Progress:==>                           8%] [Cov:====================>
+[Progress:==>                           8%] [Cov:=====================>
+[Progress:===>                          10%] [Cov:===================>
+[Progress:===>                          10%] [Cov:====================>
+[Progress:===>                          10%] [Cov:====================>
+[Progress:===>                          10%] [Cov:=====================>
+[Progress:===>                          10%] [Cov:=====================>
+[Progress:===>                          11%] [Cov:=====================>
+[Progress:===>                          11%] [Cov:=====================>
+[Progress:===>                          11%] [Cov:=====================>
+[Progress:===>                          13%] [Cov:====================>
+[Progress:===>                          13%] [Cov:=====================>
+[Progress:===>                          13%] [Cov:=====================>
+[Progress:===>                          13%] [Cov:=====================>
+[Progress:===>                          13%] [Cov:=====================>
+[Progress:====>                         15%] [Cov:=====================>
+[Progress:====>                         15%] [Cov:======================>
+[Progress:====>                         15%] [Cov:======================>
+[Progress:====>                         16%] [Cov:======================>
+[Progress:====>                         16%] [Cov:=======================>
+[Progress:====>                         16%] [Cov:=======================>
+[Progress:=====>                        18%] [Cov:=======================>
+[Progress:=====>                        18%] [Cov:=======================>
+[Progress:=====>                        18%] [Cov:=======================>
+[Progress:======>                       20%] [Cov:=======================>
+[Progress:======>                       20%] [Cov:=======================>
+[Progress:======>                       20%] [Cov:========================>
+[Progress:======>                       20%] [Cov:========================>
+[Progress:======>                       20%] [Cov:========================>
+[Progress:======>                       21%] [Cov:========================>
+[Progress:======>                       21%] [Cov:========================>
+[Progress:======>                       23%] [Cov:========================>
+[Progress:======>                       23%] [Cov:========================>
+[Progress:======>                       23%] [Cov:========================>
+[Progress:=======>                      25%] [Cov:========================>
+[Progress:=======>                      25%] [Cov:========================>
+[Progress:=======>                      25%] [Cov:========================>
+[Progress:=======>                      26%] [Cov:========================>
+[Progress:=======>                      26%] [Cov:========================>
+[Progress:========>                     28%] [Cov:========================>
+[Progress:========>                     28%] [Cov:=========================>
+[Progress:========>                     28%] [Cov:=========================>
+[Progress:=========>                    30%] [Cov:=========================>
+[Progress:=========>                    30%] [Cov:=========================>
+[Progress:=========>                    30%] [Cov:=========================>
+[Progress:=========>                    31%] [Cov:========================>
+[Progress:=========>                    31%] [Cov:=========================>
+[Progress:=========>                    31%] [Cov:=========================>
+[Progress:=========>                    33%] [Cov:=========================>
+[Progress:=========>                    33%] [Cov:=========================>
+[Progress:==========>                   35%] [Cov:=========================>
+[Progress:==========>                   35%] [Cov:=========================>
+[Progress:==========>                   35%] [Cov:=========================>
+[Progress:==========>                   36%] [Cov:=========================>
+[Progress:==========>                   36%] [Cov:=========================>
+[Progress:==========>                   36%] [Cov:=========================>
+[Progress:===========>                  38%] [Cov:=========================>
+[Progress:===========>                  38%] [Cov:=========================>
+[Progress:===========>                  38%] [Cov:=========================>
+[Progress:============>                 40%] [Cov:=========================>
+[Progress:============>                 40%] [Cov:=========================>
+[Progress:============>                 40%] [Cov:=========================>
+[Progress:============>                 41%] [Cov:=========================>
+[Progress:============>                 43%] [Cov:=========================>
+[Progress:============>                 43%] [Cov:=========================>
+[Progress:============>                 43%] [Cov:=========================>
+[Progress:=============>                45%] [Cov:=========================>
+[Progress:=============>                45%] [Cov:=========================>
+[Progress:=============>                45%] [Cov:=========================>
+[Progress:=============>                45%] [Cov:=========================>
+[Progress:=============>                46%] [Cov:=========================>
+[Progress:=============>                46%] [Cov:=========================>
+[Progress:=============>                46%] [Cov:=========================>
+[Progress:=============>                46%] [Cov:=========================>
+[Progress:=============>                46%] [Cov:=========================>
+[Progress:==============>               48%] [Cov:=========================>
+[Progress:==============>               48%] [Cov:=========================>
+[Progress:==============>               48%] [Cov:=========================>
+[Progress:===============>              50%] [Cov:=========================>
+[Progress:===============>              50%] [Cov:=========================>
+[Progress:===============>              51%] [Cov:=========================>
+[Progress:===============>              51%] [Cov:=========================>
+[Progress:===============>              51%] [Cov:==========================>
+[Progress:===============>              53%] [Cov:==========================>
+[Progress:===============>              53%] [Cov:==========================>
+[Progress:================>             55%] [Cov:==========================>
+[Progress:================>             55%] [Cov:==========================>
+[Progress:================>             56%] [Cov:==========================>
+[Progress:================>             56%] [Cov:==========================>
+[Progress:=================>            58%] [Cov:==========================>
+[Progress:=================>            58%] [Cov:==========================>
+[Progress:=================>            58%] [Cov:==========================>
+[Progress:==================>           60%] [Cov:==========================>
+[Progress:==================>           60%] [Cov:==========================>
+[Progress:==================>           60%] [Cov:==========================>
+[Progress:==================>           61%] [Cov:==========================>
+[Progress:==================>           61%] [Cov:==========================>
+[Progress:==================>           61%] [Cov:==========================>
+[Progress:==================>           63%] [Cov:==========================>
+[Progress:==================>           63%] [Cov:==========================>
+[Progress:==================>           63%] [Cov:==========================>
+[Progress:===================>          65%] [Cov:==========================>
+[Progress:===================>          65%] [Cov:==========================>
+[Progress:===================>          66%] [Cov:==========================>
+[Progress:===================>          66%] [Cov:==========================>
+[Progress:===================>          66%] [Cov:==========================>
+[Progress:====================>         68%] [Cov:==========================>
+[Progress:====================>         68%] [Cov:==========================>
+[Progress:====================>         68%] [Cov:==========================>
+[Progress:=====================>        70%] [Cov:==========================>
+[Progress:=====================>        70%] [Cov:==========================>
+[Progress:=====================>        70%] [Cov:==========================>
+[Progress:=====================>        71%] [Cov:=========================>
+[Progress:=====================>        71%] [Cov:==========================>
+[Progress:=====================>        71%] [Cov:==========================>
+[Progress:=====================>        71%] [Cov:==========================>
+[Progress:=====================>        73%] [Cov:==========================>
+[Progress:=====================>        73%] [Cov:==========================>
+[Progress:=====================>        73%] [Cov:==========================>
+[Progress:======================>       75%] [Cov:==========================>
+[Progress:======================>       75%] [Cov:==========================>
+[Progress:======================>       75%] [Cov:==========================>
+[Progress:======================>       76%] [Cov:==========================>
+[Progress:=======================>      78%] [Cov:==========================>
+[Progress:=======================>      78%] [Cov:==========================>
+[Progress:========================>     80%] [Cov:==========================>
+[Progress:========================>     80%] [Cov:==========================>
+[Progress:========================>     80%] [Cov:==========================>
+[Progress:========================>     81%] [Cov:==========================>
+[Progress:========================>     81%] [Cov:==========================>
+[Progress:========================>     81%] [Cov:==========================>
+[Progress:========================>     83%] [Cov:==========================>
+[Progress:========================>     83%] [Cov:==========================>
+[Progress:=========================>    85%] [Cov:==========================>
+[Progress:=========================>    85%] [Cov:==========================>
+[Progress:=========================>    85%] [Cov:==========================>
+[Progress:=========================>    86%] [Cov:==========================>
+[Progress:=========================>    86%] [Cov:==========================>
+[Progress:==========================>   88%] [Cov:==========================>
+[Progress:==========================>   88%] [Cov:==========================>
+[Progress:===========================>  90%] [Cov:==========================>
+[Progress:===========================>  90%] [Cov:==========================>
+[Progress:===========================>  91%] [Cov:==========================>
+[Progress:===========================>  91%] [Cov:==========================>
+[Progress:===========================>  91%] [Cov:==========================>
+[Progress:===========================>  93%] [Cov:==========================>
+[Progress:===========================>  93%] [Cov:==========================>
+[Progress:===========================>  93%] [Cov:==========================>
+[Progress:============================> 95%] [Cov:==========================>
+[Progress:============================> 95%] [Cov:==========================>
+[Progress:============================> 95%] [Cov:==========================>
+[Progress:============================> 96%] [Cov:==========================>
+[Progress:============================> 96%] [Cov:==========================>
+[Progress:============================> 96%] [Cov:==========================>
+[Progress:=============================>98%] [Cov:==========================>
+[Progress:=============================>98%] [Cov:==========================>
+[Progress:=============================>98%] [Cov:==========================>
+[Progress:==============================100%] [Cov:==========================>
+[Progress:==============================100%] [Cov:==========================>
+[Progress:==============================100%] [Cov:==========================>
+[Progress:==============================100%] [Cov:==========================>
+[Progress:==============================100%] [Cov:==========================>
+[Progress:==============================100%] [Cov:==========================>
+[Progress:==============================100%] [Cov:==========================>
+      77%]
+* Search finished after 61s and 100 generations, 41601 statements, best individu
+al has fitness: 170.98070175438596
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 78%
+* Total number of goals: 92
+* Number of covered goals: 72
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 67%
+* Total number of goals: 52
+* Number of covered goals: 35
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 29
+* Number of covered goals: 29
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 53%
+* Total number of goals: 170
+* Number of covered goals: 90
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 61%
+* Total number of goals: 38
+* Number of covered goals: 23
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 26
+* Number of covered goals: 26
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 96%
+* Total number of goals: 26
+* Number of covered goals: 25
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 65%
+* Total number of goals: 52
+* Number of covered goals: 34
+* Generated 55 tests with total length 183
+* Resulting test suite's coverage: 78% (average coverage for all fitness functio
+ns)
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+[MASTER] 20:59:01.815 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:01.816 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("f38Hlv:");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', 'J');
+
+[MASTER] 20:59:02.139 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:02.139 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("f38Hlv:");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', 'J');
+
+[MASTER] 20:59:02.395 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:02.396 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("EMPTY_SEPARATORS");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0);
+CSVReader cSVReader0 = new CSVReader(bufferedReader0, 'F');
+
+[MASTER] 20:59:02.592 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:02.592 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("f38Hlv:");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', 'J');
+
+[MASTER] 20:59:03.155 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:03.155 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("EMPTY_SEPARATORS");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0);
+CSVReader cSVReader0 = new CSVReader(bufferedReader0, 'F');
+
+[MASTER] 20:59:03.451 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:03.452 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', 'F', ',', 44, true, fal
+se, true);
+
+[MASTER] 20:59:04.130 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:04.130 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("f38Hlv:");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', 'J');
+
+[MASTER] 20:59:04.501 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:04.501 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("com.opencsv.stream.reader.LineRe
+ader");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0, 3);
+CSVParser cSVParser0 = new CSVParser('R', '!', '`');
+cSVParser0.parseLineMulti("!Dw_7[AAz ");
+CSVReader cSVReader0 = new CSVReader(bufferedReader0, 0, cSVParser0);
+
+[MASTER] 20:59:04.701 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:04.701 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("TW5wF@U");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0, 1);
+CSVParser cSVParser0 = new CSVParser();
+CSVReader cSVReader0 = new CSVReader(bufferedReader0, 302, cSVParser0, false, fa
+lse);
+
+[MASTER] 20:59:04.885 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:04.885 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("PQj_h+7}=8U9QR");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'e', 'o', '%', 10, true, fal
+se);
+
+[MASTER] 20:59:05.059 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:05.059 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("");
+CSVReader cSVReader0 = new CSVReader(stringReader0, '^', 'c', '&', (-2271), true
+);
+
+[MASTER] 20:59:05.233 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:05.233 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("g$I\u0004'%.AO");
+CSVReader cSVReader0 = new CSVReader((Reader) stringReader0, 'O', '0', 'A');
+
+[MASTER] 20:59:05.413 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:05.413 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("TA@");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', 'J');
+
+[MASTER] 20:59:08.996 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:08.996 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("EMPTY_QUOTES");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0);
+CSVReader cSVReader0 = new CSVReader(bufferedReader0, 'G', 'V', 'p', 1024, false
+, false);
+
+[MASTER] 20:59:09.207 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:09.207 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("ihmyhT J(H");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'm', ')', 0);
+
+[MASTER] 20:59:09.426 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:09.426 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("");
+CSVReader cSVReader0 = new CSVReader(stringReader0);
+
+[MASTER] 20:59:09.592 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:09.592 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("");
+CSVParser cSVParser0 = new CSVParser('t');
+CSVReader cSVReader0 = new CSVReader(stringReader0, 4, cSVParser0, true, true);
+
+[MASTER] 20:59:09.741 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:09.741 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("[\"9&");
+CSVReader cSVReader0 = new CSVReader(stringReader0);
+
+[MASTER] 20:59:09.904 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:09.904 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("com.opencsv.stream.reader.LineRe
+ader");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0, 3);
+CSVParser cSVParser0 = new CSVParser('R', ',', '`');
+CSVReader cSVReader0 = new CSVReader(bufferedReader0, 0, cSVParser0);
+
+[MASTER] 20:59:10.029 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:10.029 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("TA@");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', 'J');
+
+[MASTER] 20:59:10.158 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:10.158 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("");
+CSVReader cSVReader0 = new CSVReader(stringReader0, (-3312), (ICSVParser) null);
+
+[MASTER] 20:59:10.362 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:10.362 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("TA@");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', 'J');
+
+[MASTER] 20:59:10.497 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:10.497 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("com.opencsv.stream.reader.LineRe
+ader");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0, 3);
+CSVParser cSVParser0 = new CSVParser('R', '!', '`');
+CSVReader cSVReader0 = new CSVReader(bufferedReader0, 0, cSVParser0);
+
+[MASTER] 20:59:10.650 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:10.650 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0);
+bufferedReader0.close();
+CSVReader cSVReader0 = new CSVReader(bufferedReader0);
+
+[MASTER] 20:59:10.772 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:10.772 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0);
+CSVReader cSVReader0 = new CSVReader(bufferedReader0);
+
+[MASTER] 20:59:10.901 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:10.902 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("w/:l-pR");
+RFC4180Parser rFC4180Parser0 = new RFC4180Parser('n', 'f');
+CSVReader cSVReader0 = new CSVReader(stringReader0, 2040, rFC4180Parser0);
+
+[MASTER] 20:59:11.062 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:11.062 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("TA@");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', 'J');
+
+[MASTER] 20:59:11.308 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:11.308 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("The separator character must be
+defined!");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0);
+CSVParser cSVParser0 = new CSVParser();
+CSVReader cSVReader0 = new CSVReader(bufferedReader0, (-748), cSVParser0, false,
+ false);
+
+[MASTER] 20:59:11.440 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:11.440 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("com.opencsv.stream.reader.LineRe
+ader");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0, 3);
+CSVParser cSVParser0 = new CSVParser('R', '!', '`');
+CSVReader cSVReader0 = new CSVReader(bufferedReader0, 0, cSVParser0);
+
+[MASTER] 20:59:11.584 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:11.584 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("");
+BufferedReader bufferedReader0 = new BufferedReader(stringReader0);
+bufferedReader0.close();
+CSVReader cSVReader0 = new CSVReader(bufferedReader0);
+
+[MASTER] 20:59:11.739 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:11.739 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', '_', ',', 44, true, fal
+se, true);
+
+[MASTER] 20:59:11.880 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:11.880 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("TA@");
+CSVReader cSVReader0 = new CSVReader(stringReader0, 'w', 'J');
+
+[MASTER] 20:59:12.028 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:12.028 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("[\"9&");
+CSVParser cSVParser0 = new CSVParser('f', '\\', '?', true, true);
+CSVReader cSVReader0 = new CSVReader(stringReader0, (-1160), cSVParser0);
+
+[MASTER] 20:59:12.156 [logback-1] WARN  JUnitAnalyzer - Found unstable test name
+d test0 -> class java.lang.AssertionError: Expecting exception: NoSuchFieldError
+[MASTER] 20:59:12.156 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ StringReader stringReader0 = new StringReader("Mr,KD");
+CSVReader cSVReader0 = new CSVReader(stringReader0, '!', '\'', false);
+
+* Writing JUnit test case 'CSVReader_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished
+
+Wender@DESKTOP-8V9JJ7T MINGW64 ~/Documents/Pós/IA/Atividad/opencsv (master)
+$ ls
+LICENSE                      evosuite-1.0.6.jar  lib/             target/
+README.md                    evosuite-report/    pmd-ruleset.xml
+checkstyle-suppressions.xml  evosuite-tests/     pom.xml
+checkstyle.xml               examples/           src/
+
+Wender@DESKTOP-8V9JJ7T MINGW64 ~/Documents/Pós/IA/Atividad/opencsv (master)
+$ ls evosuite-tests
+com/
+
+Wender@DESKTOP-8V9JJ7T MINGW64 ~/Documents/Pós/IA/Atividad/opencsv (master)
+$ mvn test
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------< com.opencsv:opencsv >-------------------------
+[INFO] Building opencsv 3.9-cygri
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- jacoco:0.7.7.201606060606:prepare-agent (default-prepare-agent) @ ope
+ncsv ---
+[INFO] argLine set to -javaagent:C:\\Users\\Wender\\.m2\\repository\\org\\jacoco
+\\org.jacoco.agent\\0.7.7.201606060606\\org.jacoco.agent-0.7.7.201606060606-runt
+ime.jar=destfile=C:\\Users\\Wender\\Documents\\Pós\\IA\\Atividad\\opencsv\\targe
+t\\jacoco.exec
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ opencsv ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Wender\Documents\Pós\IA\Ativ
+idad\opencsv\src\main\resources
+[INFO]
+[INFO] --- compiler:3.5.1:compile (default-compile) @ opencsv ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. b
+uild is platform dependent!
+[INFO] Compiling 53 source files to C:\Users\Wender\Documents\Pós\IA\Atividad\op
+encsv\target\classes
+[INFO]
+[INFO] --- bundle:3.0.1:manifest (bundle-manifest) @ opencsv ---
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ opencsv ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] Copying 23 resources from src\test\resources to target\test-classes
+[INFO]
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ opencsv ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- gplus:1.5:testCompile (default) @ opencsv ---
+[INFO] Using Groovy 2.4.1 to perform testCompile.
+[INFO] Compiled 6 files.
+[INFO]
+[INFO] --- surefire:2.19.1:test (default-test) @ opencsv ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.opencsv.bean.AnnotationTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.971 sec - in
+com.opencsv.bean.AnnotationTest
+Running com.opencsv.bean.BeanToCsvTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in c
+om.opencsv.bean.BeanToCsvTest
+Running com.opencsv.bean.ColumnPositionMappingStrategyTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in c
+om.opencsv.bean.ColumnPositionMappingStrategyTest
+Running com.opencsv.bean.CsvToBeanDoubleTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in c
+om.opencsv.bean.CsvToBeanDoubleTest
+Running com.opencsv.bean.CsvToBeanFilterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.o
+pencsv.bean.CsvToBeanFilterTest
+Running com.opencsv.bean.CsvToBeanTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 sec - in
+com.opencsv.bean.CsvToBeanTest
+Running com.opencsv.bean.HeaderColumnNameMappingStrategyTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in c
+om.opencsv.bean.HeaderColumnNameMappingStrategyTest
+Running com.opencsv.bean.HeaderColumnNameTranslateMappingStrategyTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.o
+pencsv.bean.HeaderColumnNameTranslateMappingStrategyTest
+Running com.opencsv.bean.IterableCSVToBeanBuilderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.403 sec - in c
+om.opencsv.bean.IterableCSVToBeanBuilderTest
+Running com.opencsv.bean.IterableCSVToBeanTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in co
+m.opencsv.bean.IterableCSVToBeanTest
+Running com.opencsv.bean.StatefulBeanToCsvTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.494 sec - in c
+om.opencsv.bean.StatefulBeanToCsvTest
+Running com.opencsv.CSVIteratorSpec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.472 sec - in c
+om.opencsv.CSVIteratorSpec
+Running com.opencsv.CSVIteratorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in c
+om.opencsv.CSVIteratorTest
+Running com.opencsv.CSVParserBuilderSpec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in co
+m.opencsv.CSVParserBuilderSpec
+Running com.opencsv.CSVParserBuilderTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.o
+pencsv.CSVParserBuilderTest
+Running com.opencsv.CSVParserTest
+Tests run: 54, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.121 sec - in
+com.opencsv.CSVParserTest
+Running com.opencsv.CSVReaderBuilderTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in
+com.opencsv.CSVReaderBuilderTest
+Running com.opencsv.CSVReaderTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in
+com.opencsv.CSVReaderTest
+Running com.opencsv.CSVWriterTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.594 sec - in
+com.opencsv.CSVWriterTest
+Running com.opencsv.OpencsvTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.o
+pencsv.OpencsvTest
+Running com.opencsv.ResultSetColumnNameHelperServiceTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec - in
+com.opencsv.ResultSetColumnNameHelperServiceTest
+Running com.opencsv.ResultSetHelperServiceTest
+-Infinity
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 sec - in
+com.opencsv.ResultSetHelperServiceTest
+Running com.opencsv.RFC4180ParserBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in c
+om.opencsv.RFC4180ParserBuilderTest
+Running com.opencsv.RFC4180ParserSpec
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec - in
+com.opencsv.RFC4180ParserSpec
+Running com.opencsv.stream.reader.LineReaderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.o
+pencsv.stream.reader.LineReaderTest
+Running com.opencsv.TestUtilitiesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.o
+pencsv.TestUtilitiesTest
+Running com.opencsv.UniCodeTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.
+opencsv.UniCodeTest
+Running integrationTest.isClosed.isClosedTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in in
+tegrationTest.isClosed.isClosedTest
+Running integrationTest.issue3402853.HeaderColumnNameMappingStrategyUserTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in i
+ntegrationTest.issue3402853.HeaderColumnNameMappingStrategyUserTest
+Running integrationTest.SR34.SR34Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in integ
+rationTest.SR34.SR34Test
+
+Results :
+
+Tests run: 318, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.019 s
+[INFO] Finished at: 2026-01-17T21:01:53-03:00
+[INFO] ------------------------------------------------------------------------
+
+Wender@DESKTOP-8V9JJ7T MINGW64 ~/Documents/Pós/IA/Atividad/opencsv (master)
+$
